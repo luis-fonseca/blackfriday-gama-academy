@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  // efeito de scroll fluído
+  scroll-behavior: smooth;
+}
+
+.section-container {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-section {
+  background-color: #0a0800;
+  background-image: url('assets/patterns/binding-dark.png');
+  background-attachment: fixed;
+}
+
+.section-one {
+  img {
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+.section-two {
+}
+
+.card-container {
+  background: #fff;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+}
+
+form {
+  display: grid;
+
+  input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    color: white;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+footer {
+  background: #000;
+  color: #ccc;
+  height: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
